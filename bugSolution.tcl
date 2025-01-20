@@ -1,0 +1,1 @@
+proc goodproc {x} {if {$x <= 1} {return 1} {return $x * goodproc [expr {$x - 1}]}} 
